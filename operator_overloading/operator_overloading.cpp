@@ -44,7 +44,7 @@ int main(){
     obj3.print();
 
 
-    obj4 = -obj3;                           // defining - for user defined data type (Unary operator)
+    obj4 = -obj3;  // obj4 = obj3.operator-()                         // defining - for user defined data type (Unary operator)
     
     /*
         In unary operator there is only one object which is the caller also, and its behaviour is same as the one for primitive data types. eg, -5
