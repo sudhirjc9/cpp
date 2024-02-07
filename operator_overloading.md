@@ -6,4 +6,4 @@
     1. it is a valid operator in C/CPP language
     2. it is preceded by operator keyword
 
-** You cannot overload `sizeof` and `?::` operator 
+** You cannot overload `sizeof` and `?::` operator**
