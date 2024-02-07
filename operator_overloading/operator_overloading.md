@@ -9,3 +9,9 @@
 **You cannot overload `sizeof` and `?::` operator**
 
 # Overloading Unary Operator
+    - has only the caller object and no argument is passed
+
+# Overloading pre and post increment
+    - since the signature is same of pre and post increment to differentiate between them, for post increment a dummy `int` is passed as an argument when overloading.
+    - see the code for reference.
+    - similar way is done to overload pre and post decrement
