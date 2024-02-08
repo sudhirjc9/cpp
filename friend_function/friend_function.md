@@ -28,3 +28,24 @@ _Friend function can become more than a friend function_
 **Operator overloading can also be done through friend fucntion both Unary and Binary**
 - One extra object is passed when using friend function as operator overloading.
 - See code for reference.
+- Member function of one class can become friend to another class by using scope resolution operator, example
+- A class can also be a friend of another class if you want all the functions of one class to be friend of another class
+```Code example
+    
+    class A{
+
+    public:
+        void func(){
+            .....
+        }
+    };
+
+    class B{
+
+        friend void A::func();                      // for indiviual class this can be used
+        friend class A;
+    }
+```
+
+***Code examples**
+-[] insertion and extraction operator overloading.
