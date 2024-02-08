@@ -29,7 +29,7 @@ complex operator+(complex obj1, complex obj2)          // operator overloading (
         return temp;
     }
 
-complex operator-(complex obj){                //   operator overloading (Binary operator overloading) using friend function
+complex operator-(complex obj){                //   operator overloading (  operator overloading) using friend function
         complex temp;
         temp.a = -obj.a;
         temp.b = -obj.b;
