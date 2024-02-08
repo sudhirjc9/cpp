@@ -11,9 +11,9 @@
 
  ---
  **Visibility Mode**
- -[]Private
- -[]Protected
- -[]Public
+ - Private
+ - Protected
+ - Public
  ---
 
 **Availabilty vs Accessibility**
